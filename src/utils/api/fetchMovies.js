@@ -23,8 +23,11 @@ export const fetchData = async (page) => {
     try {
       const response = await axios.get(`${apiUrl}?page=${page}`, { headers });
       const data = response.data;
-
-      return data.results;
+      //if there are still more pages
+      if(data.next){
+        return data.results;
+      }
+      return [];
      
     } catch (error) {
       console.error("Error fetching data:", error);

@@ -5,6 +5,7 @@
     justify-content: center !important;
     grid-gap: 20px;
     padding: 20px;
+  
     
 }
 
@@ -14,4 +15,18 @@
     width: auto;
     max-width: 100%;
     cursor: pointer;
+}
+
+.empty-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 45vh;
+}
+
+.empty-container img{
+    height: 100px;
+    width: auto;
 }

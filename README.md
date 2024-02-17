@@ -1,4 +1,5 @@
 # MoviesGrid Pro
+![home](home.png)
 
 MoviesGrid Pro is a React application that allows users to browse movies and TV shows. It provides a grid layout for displaying movie posters along with title, release year, and type information. 
 Loads/Fetch movies on scroll to bottom
