@@ -1,0 +1,17 @@
+.movies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    align-items: center !important;
+    justify-content: center !important;
+    grid-gap: 20px;
+    padding: 20px;
+    
+}
+
+.movie-poster {
+    width: auto;
+    height: 80%;
+    width: auto;
+    max-width: 100%;
+    cursor: pointer;
+}
